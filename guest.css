@@ -1,0 +1,151 @@
+.logo{    
+        border-radius: 50%;
+        padding: 10px;
+        width: 200px;
+}
+h1{
+color:white;
+}
+p{
+color:white;
+}
+
+.colum {
+  float: right;
+  width: 25%;
+  padding: 0 10px;
+}
+  
+  
+}
+p:hover, h1:hover,h2:hover,h3:hover {
+  background-color: yellow;
+}
+
+
+
+.logo{width: 18%;
+      padding: 10px 10px;
+      border-radius: 38%;
+      align: "left";}
+.topnav{
+float:right;
+border-radius:5px;
+overflow:hidden;
+}
+.
+div class{
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+
+.column {
+  float: left;
+  width: 21%;
+  padding: 10px 10px;}
+.ro {margin: 0px 10px;}
+
+.footer{background-color: black;font-family: cursive;
+	    padding: 2% 5%;
+	    color: white;
+		height: auto;
+  		left: 0;
+		bottom: 0;overflow: hidden;
+		width: device-width;}
+
+.fcolumn {width: 260px;
+		  float: left;
+		  padding: 10px 30px;
+		  height: auto;
+		  overflow:hidden;}
+a { list-style-type: none;
+    color: white;
+	text-decoration:inherit;}
+
+#mySidenav a {
+  position:absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 20px;
+  width: 95px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 8px 8px 0;}
+#mySidenav a:hover {left: 0;}
+#about {
+  top:1520px;
+  background-color:#4CAF50 ;
+ }
+#blog {
+  top: 1600px;
+  background-color: #2196F3;}
+#projects {
+  top: 1680px;
+  background-color: #f44336;}
+#contact {
+  top: 1760px;
+  background-color: #555;}
+
+.navbar {
+  list-style-type: none;
+  border-radius: 4%;
+  color: black;
+  overflow: hidden;
+  background-color: white;
+  font-family:;
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration:none;
+  border-radius: 4%;	
+}
+
+
+
+
+.column {
+  float: left;left: 0;
+  width: 15%;
+  padding: 15px;
+  background-color: #ffffff;
+  color: black;}
+.column1 {
+  float: left;right: 0;
+  width: 29%;	 
+  background-color: #ffffff;
+  height: 250px;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 15px;}
+.column a {
+  float:none;
+  color: black;
+  padding: 12px;
+  text-decoration:underline;
+  text-decoration-style:solid;
+  display:block;
+  text-align: left;	
+}
+.column a:hover {
+  background-color: skyblue;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 150%;
+    height: auto;  
+  }
+}
+
+
+
